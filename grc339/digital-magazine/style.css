@@ -41,13 +41,11 @@ nav a{
     line-height: 1.5;
     transition: color 0.3s ease, text-shadow 0.3s ease;
 
-
 }
-
-nav a:hover {
-    color: #3d688b;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
+    nav a:hover {
+        color: #3d688b;
+        text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.3);
+    }
 
 section.firststory h2{
     font-size: 3rem;
@@ -65,7 +63,7 @@ section.secondarystory h2{
 section.tertiarystory h2{
     font-size: 1.2rem;
     color: #538890;
-    font-family: Lora;
+    font-family: Oswald;
     border-top: 1px solid;
     padding-top: 0.5em;
 
@@ -103,7 +101,7 @@ aside{
 
 }
 figcaption{
-    font-family: Mrs Eaves;
+    font-family: PT Sans;
     font-style: italic;
     color: #4e4e4e;
     margin-bottom: 1rem;
@@ -133,7 +131,7 @@ footer p{
     color: #ffffff;
     background-color: #0a3b43;
     padding: .5em;
-    font-family: Mrs Eaves;
+    font-family: PT Sans;
     margin: auto;
     box-sizing: border-box;
 }
