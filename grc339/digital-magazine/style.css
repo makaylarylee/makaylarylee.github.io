@@ -5,6 +5,11 @@ div.container, div.home-container{
     max-width: 40em;
     margin: auto;
 }
+
+body {
+    background-color: #fef4eb;
+}
+
 img {
     width: 100%;
     display: block;
@@ -14,12 +19,6 @@ img {
 h1{
     width: 8rem;
     margin-top: 1em;
-}
-
-
-header h1 img {
-    width: 100px; 
-    height: auto; 
 }
 
 nav ul{
@@ -35,9 +34,9 @@ nav ul li{
 }
 
 nav a{
-    color: #7697c0;
+    color: #c43535da;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: Mrs Eaves;
     font-weight: bold;
     line-height: 1.5;
 
@@ -45,24 +44,21 @@ nav a{
 
 section.firststory h2{
     font-size: 3rem;
-    color: #7697c0;
-    font-weight: bold;
-    font-family: serif;
+    color: #538890;
+    font-family: Oswald;
 }
 
 section.secondarystory h2{
-    font-size: 1.7rem;
-    color: #7697c0;
-    font-weight: bold;
-    font-family: serif;
+    font-size: 1.5rem;
+    color: #538890;
+    font-family: Oswald;
 
 }
 
 section.tertiarystory h2{
     font-size: 1.2rem;
-    color: #7697c0;
-    font-weight: bold;
-    font-family: serif;
+    color: #538890;
+    font-family: Lora;
     border-top: 1px solid;
     padding-top: 0.5em;
 
@@ -78,13 +74,13 @@ section{
 
 p{
     color: #000000;
-    font-family: sans-serif;
+    font-family: PT Sans;
+    line-height: 1.7; 
 }
 div.mainstory h2{
     font-size: 3rem;
-    color: #7697c0;
-    font-weight: bold;
-    font-family: serif;
+    color:#538890;
+    font-family: Oswald;
     margin-bottom: 1rem;
     margin-top: 3rem;
 
@@ -93,14 +89,14 @@ div.mainstory p{
     margin-bottom: 1rem;
 }
 aside{
-    background-color: #d6d2ea;
+    background-color: #ffb0b000;
     padding: 1em .5em;
     max-width: 40em;
     margin: auto;
 
 }
 figcaption{
-    font-family: sans-serif;
+    font-family: Mrs Eaves;
     font-style: italic;
     color: #4e4e4e;
     margin-bottom: 1rem;
@@ -128,9 +124,9 @@ figcaption{
     }
 footer p{
     color: #ffffff;
-    background-color: #7697c0;
+    background-color: #0a3b43;
     padding: .5em;
-    font-family: sans-serif;
+    font-family: Mrs Eaves;
     margin: auto;
     box-sizing: border-box;
 }
