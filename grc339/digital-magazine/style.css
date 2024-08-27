@@ -34,12 +34,19 @@ nav ul li{
 }
 
 nav a{
-    color: #c43535da;
+    color: #E2725B;
     text-decoration: none;
     font-family: PT Sans;
     font-weight: bold;
     line-height: 1.5;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 
+
+}
+
+nav a:hover {
+    color: #3d688b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 section.firststory h2{
