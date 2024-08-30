@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>The Dye Journal</title> 
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>	
+
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="index.html"><img src="thedyejournallogo.svg" alt="The Dye Journal"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Flowers</a></li>
+                    <li><a href="#">Bundle Dyeing</a></li>
+                    <li><a href="mainstory.html">Indigo</a></li>
+                    <li><a href="#">Mordanting</a></li>
+                    <li><a href="newsletter.html">Newsletter</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <main>
+            <section class="secondarystory">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Your full name" />
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+
+                    <section>
+                        <h2>
+                            <label for="notes">Share any questions or thoughts you have with us!</label><br>
+                            <textarea id="notes" name="notes"></textarea>
+                        </h2>
+                    </section>
+
+                    <h2>
+                        <label>How often would you like to recive our newsletter?</label><br>
+                    </h2>
+
+                    <ul>
+                        <li><input type="checkbox" id="daily-news" value="daily" /> <label for="daily-news">Daily</label></li>
+                        <li><input type="checkbox" id="weekly-news" value="weekly" /> <label for="weekly-news">Weekly</label></li>
+                        <li><input type="checkbox" id="need-to-know" value="need-to-know" /> <label for="need-to-know">Monthly</label></li>
+                    </ul>
+
+                    <section>
+                        <button type="submit">Subscribe</button>
+                    </section>
+
+                    <figure>
+                        <img src="indigosilk.jpg" alt="hands handing up indigo dyed silk on a clothes line.">
+                    </figure>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
